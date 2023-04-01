@@ -39,3 +39,9 @@ The behavior of the ramp up and ramp down sequences can be adjusted in code.  Th
 
 ## Other ##
 When using a fully charged 2000 mAH battery and a MAX_BRIGHTNESS value of 0x80, a run time of greater than 90 minutes was observed which should provide more than ample head room for a single scene in the performance.
+
+Two cases were 3D printed and STL files for them is available in the "Cases" folder within the repo.  The first case holds the Nano and a 5V 2000 mAH USB power bank.  The second holds the relay switch and a 11.1V battery.  These cases were designed around specific HW including....
+- Standard Arduino Nano
+- 5V 2000mAH lithium ion power bank (Harbor Freight "Armstrong" SKU 64977)
+- 11.1V 2000mAH LiPo batter (cyclindrical - typical of Airsoft gun)
+- Form-C 433MHz Wireless relay switch (eMyLo R121A)
